@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Design.css">
+    <script src="Calculation.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation</title>
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Salary Calculator</h2>
+
+        <div class="input-group">
+            <label for="grossSalary">Gross Salary (Php):</label>
+            <input type="number" id="grossSalary" step="any" placeholder="Enter amount">
+        </div>
+
+        <button onclick="calculateSalary()">Calculate</button>
+
+        <div class="result-display">
+            <span class="result-text">Net Salary after 10% tax:</span>
+            <span id="netSalaryResult">Php 0.00</span>
+        </div>
+    </div>
+</body>
+</html>
